@@ -6,8 +6,6 @@ let filesToCache = [
   '/images/Email-Icon.png',
   '/images/jesspic.jpg',
   '/images/Linkedin-Icon.jpg',
-  '/projects/dsareport.pdf',
-  '/projects/gisreport.pdf',
   '/projects/verses.json',
   '/styles.css',
   '/script.js',

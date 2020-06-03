@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+    <a name="top"></a>
+    
+    <header>
+        <section id='title'>
+            <h1 id='page-name'>Jessica Low</h1>
+            <p style="font-style: italic">A Digital Resume</p>
+        </section>
+        
+        <nav id="nav-menu" class='container'>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">My Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class='pg-title'>My Projects</h1>
+        
+        <nav id='proj-menu' class='sub-menu container'>
+            <a href="#smu">School Projcts</a>
+            <a href="#wad">WAD Projects</a>
+        </nav>
+
+        <a name="smu"></a>
+        <article class='articles'>
+            <h1>[School Projects]</h1>
+
+            <section class='para'>
+                <h1>Hungry@SMU (2020)</h1>
+                <p>In the module Smart City Systems & Mananagement, we were tasked to design, develop, deploy & manage an (almost) end-to-end a smart campus solution, as part of an integrated smart campus system of systems.</p>
+                <p>My team realised that SMU students did not have enough time to buy food during seminar breaks and between our back-to-back seminars, resulting in students either foregoing eating and remaining hangry in class, or compromise lesson time to buy food and be disruptive to their fellow classmates.</p>
+                <p>Our solution, Hungry@SMU, provides a peer-to-peer food delivery platform for SMU students. Our telegram bot not only facilitates the pairing of SMUggers who wish to order and deliver food within campus, but also eases the process ordering food with the provision of outlet menus.</p>
+
+                <section id='medium-article' class='container'>
+                    <div id="medium-widget"></div>
+                    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+                    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@jessicalow7/how-we-eliminate-hunger-f8047e900067","postsPerLine":2,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"original"}})</script>
+                </section>
+                
+
+            </section>
+            
+            <section class='para'>
+                <h1>Please Don't Stop The Music (2020)</h1>
+                <p>One of my latest projects as an Undergraduate was in the module Statistical Learning with R. This was a free research project, where we had to select & analyse a data set using statistical techniques & R-programming.</p>
+                <p>My team decided to analyse a Spotify dataset found on Kaggle to predict which songs will make it onto the top charts based on their composition of variables.</p>
+                <p>We derived many insights in our analysis (page 13 onwards). We discovered 2 song types that tended to do better than their peers –
+                    <ul>
+                        <li>Fast & danceable songs</li>
+                        <li>Slow & sad songs</li>
+                    </ul>
+                </p>
+                <p>– an interesting duality that will likely have intriguing results if pursued in further studies.</p>
+                
+
+                <section id='dsa-container' class='proj-container'>
+                    <iframe src="projects/dsareport.pdf#view=FitH" alt="DSA Report" id='dsa-report' class='inner'></iframe>                  
+                </section>
+                
+            </section>
+
+            <section class='para'>
+                <h1>Highway to Taipei (2019)</h1>
+                <p>As a Smart City Management & Technology major, I have had the privelege of having urban planning as essential components of my curriculum.
+                    Geographic Information Systems (GIS) for Urban Planning was such a module.</p>
+
+                <p>Out client, International Food and Beverage franchise currently present in Taiwan, provided us with data on their outlets' trade areas, sales performance and other factors.
+                    We had 2 tasks:
+                    <ol>
+                        <li>Digitise outlet trade areas (they had soft-copy maps but none that were integrated with GIS software)</li>
+                        <li>Draw insights on factors that impact outlet performance</li>
+                    </ol>
+                </p>
+
+                <p>Our group studied 14 outlets located in both Taipei and Yilan regions of Taiwan.
+                    We derived many interesting insights (page 15 onwards) in 4 main types of analysis:
+                    <ul>
+                        <li>Trade area analysis</li>
+                        <li>Buffer analysis</li>
+                        <li>Points of interest-sales analysis</li>
+                        <li>Drive time analysis</li>
+                    </ul>
+                </p>
+                    
+                <section id='gis-container' class='proj-container'>
+                    <!-- <img src="gisposter.png" alt="GIS Poster" class='gis' id='gisposter'></img> -->
+                    <iframe src="projects/gisreport.pdf#view=FitH" alt="GIS Report" class='gis inner' id='gisreport'></iframe>
+
+                </section>
+
+            </section>
+
+            <section class='para'>
+                <h1>Circle Line Tours (2018)</h1>
+                <p><a href="https://x.smu.edu.sg/" target="_blank" class='link'>SMU-X</a> courses are interdisciplinary and emphasise experiential learning through projects aimed at solving real issues faced by organisations.</p>
+                <p>Under the Leadership & Team-Building Module (SMU-X), my class was partnered with LDR, the creators of the <a href="https://www.locomole.com/" target="_blank" class='link'>Locomole</a>. Targeted at free independent travellers, this award-winning mobile travel app houses numerous curated mobile trails so travellers can explore Singapore like a local, learning about our heritage, discovering local food, and making street art come alive with augmented reality.</p>
+                <p>My team and I targeted travellers' pain point of accessibility, which became the central concept of our promotional video. Since the app did not have a dedicated trail along the Circle Line of Singapore's Mass Rapid Transit, we decided to develop one from scratch.</p>
+                <p>Behold, our final product!</p>
+                
+
+                <section id='ltb-container' class='proj-container'>
+                    <iframe src="https://www.youtube.com/embed/_fwsBGuqJ3I" id='ltb-video' class='inner' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+
+            </section>
+            
+            <!-- <section>
+                <h1>The Price of Love</h1>
+                <p>Spreadsheet Modelling & Analytics Module</p>
+                <p>Excel: <a href="" target="_blank">Excel</a></p>
+            </section> -->
+            
+
+        </article>
+
+        <a name="wad"></a>
+        <article class='articles'>
+            <h1>[WAD Projects]</h1>
+            <section class='para'>
+                <h1>Bible Verse Truth Basket</h1>
+                <p>This truth basket extracts data from a JSON file and at the click of a button, randomly revels a Bible verse.</p>
+                <h1 class="jesusquotes">Jesus Speaks</h1>
+
+                <div class="jesusquotes" id="quotebox">
+                    <p>Click "Speak Truths" to get a Bible verse!</p>
+                </div>               
+
+                <button id="speaktruths" class="button">Speak Truths</button>
+            </section>
+
+        </article>
+
+    </main>
+
+    <br/>
+    <section id='top-btn' class='container'>
+        <section id='top-btn2' class='button'>
+            <a href="#top">Back to Top</a>
+        </section>  
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

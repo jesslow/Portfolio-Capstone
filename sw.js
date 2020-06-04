@@ -2,15 +2,14 @@ let cacheName = 'jessica-wad';
 
 // let caches;
 let filesToCache = [
-  '/',
-  '/images/Email-Icon.png',
-  '/images/jesspic.jpg',
-  '/images/Linkedin-Icon.jpg',
+  'images/Email-Icon.png',
+  'images/jesspic.jpg',
+  'images/Linkedin-Icon.jpg',
   'projects/gisreport.pdf',
   'projects/dsareport.pdf',
-  '/projects/verses.json',
-  '/styles.css',
-  '/script.js',
+  'projects/verses.json',
+  'styles.css',
+  'script.js',
 ]
 
 /* 
